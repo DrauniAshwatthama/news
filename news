@@ -1,0 +1,11 @@
+import requests
+
+url = ('https://newsapi.org/v2/everything?'
+       'q=Apple&'
+       'from=2025-01-30&'
+       'sortBy=popularity&'
+       'apiKey=eac7394d09a64a0285c8954821427cb9')
+
+response = requests.get(url)
+
+print r.json
